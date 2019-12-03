@@ -1,69 +1,23 @@
-<!doctype html>
-
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>CV - Tywin Lannister</title>
-  <link rel="stylesheet" href="css/index.css">
-  <link href="https://fonts.googleapis.com/css?family=MedievalSharp&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Kameron&display=swap" rel="stylesheet">
-</head>
-
-<body>
-  
-  <header>
-    <nav>
-      <a href="#" class="menu-item">Services</a>
-      <a href="#" class="menu-item">History</a>
-      <a href="#" class="menu-item">Vision</a>
-      <a href="#" class="menu-item">About</a>
-    </nav>
-  </header>
-  
-  <main>
-    <section class="intro-section">
-      <div><img class="head-shot-image" src="img/head-shot.jpg"></div>
-      <div class="intro-section-text">
-        <h1>Tywin Lannister</h1>
-        <h4>Warden of the West</h4>
-        <hr>
-        <h6 class="intro-section-text-sub">} Battle Commander for Hire {</h6>
-      </div>
-    </section>
-
-    <section class="info-section">
-      <h6>SKILLS</h6>
-      <div class="info-section-text">
-        I am Lord of Casterly Rock, Shield of Lannisport, and Warden of the West.  I am a proven Battle Commander
-        who will assure your company of nothing but success.
-      </div>
-    </section>
-
-    <section class="info-section">
-      <h6>WORK HISTORY</h6>
-      <div class="info-section-text">
-        <ul class="info-section-list">
-          <li>260 AC: Knighted during the <a href="https://awoiaf.westeros.org/index.php/War_of_the_Ninepenny_Kings">War of the Ninepenny Kings</a></li>
-          <li>261 AC: Destruction of House Reyne by drowning at Castemere - ending the <a href="https://awoiaf.westeros.org/index.php/Reyne-Tarbeck_revolt">Reyne-Tarbeck revolt</a></li>
-          <li>263 AC: Elevated to Hand of the King</li>
-          <li>277 AC: Brought down the <a href="https://awoiaf.westeros.org/index.php/Defiance_of_Duskendale">Defiance of Duskendale</a></li>
-          <li>282 AC: Provided a host of 10,000 soldiers to Robert Baratheon during the <a href="https://awoiaf.westeros.org/index.php/Sack_of_King%27s_Landing">Sack of King's Landing</a></li>
-          <li>Various war-crimes and atrocities too gruesome to share with the public</li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="info-section">
-      <h6>CONTACT</h6>
-      <div class="info-section-text">
-        Lord Tywin Lannister<br>
-        Casterly Rock<br>
-        Westerlands, Westeros<br>
-      </div>
-    </section>
-
-  </main>
-  
-  <footer></footer>
-</body>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DOM I</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./index.js"></script>
+  </head>
+  <body>
+    <div class="digits">
+      <div class="digit" id="secondTens">-</div>
+      <div class="digit" id="secondOnes">-</div>
+      <div class="digit" id="colon">:</div>
+      <div class="digit" id="msHundreds">-</div>
+      <div class="digit" id="msTens">-</div>
+    </div>
+    <br>
+    <hr>
+    <div>
+      <button id="startTimerButton" onclick="startTimer();" class="button">Start</button>
+      <button id="resetTimerButton" onclick="resetTimer();" class="button">Reset</button>
+    </div>
+  </body>
 </html>
